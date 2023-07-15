@@ -1,23 +1,15 @@
 import logo from './logo.svg';
 import './App.css';
+import './elements_style.css'
+import TopSide from './components/top_side.js';
+import BottoomSide from './components/bottom_left.js'
+import CenterImage from './components/center_circle_image';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <TopSide/>
+      <BottoomSide/>
     </div>
   );
 }
