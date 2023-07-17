@@ -38,3 +38,9 @@
 }
 
 
+#main_container{
+  height: 100vh;
+  background: rgb(84,110,122);
+  background: linear-gradient(90deg, rgba(84,110,122,1) 0%, rgba(96,125,139,1) 35%, rgba(120,144,156,1) 100%);
+}
+
