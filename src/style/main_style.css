@@ -104,6 +104,59 @@
   .personal-details li strong {
     margin-right: 5px;
   }
+
+  .personal-details {
+  max-width: 800px; /* Set a maximum width */
+  margin: 0 auto; /* Center the content horizontally */
+  padding: 0px;
+}
+
+.personal-details h2 {
+  margin-bottom: 10px;
+}
+
+.personal-details ul {
+  list-style: none;
+  padding: 0;
+}
+
+.personal-details li {
+  margin-bottom: 8px;
+}
+
+.personal-details li strong {
+  margin-right: 5px;
+}
+
+  /* Media query for smaller screens */
+@media (max-width: 768px) {
+  .personal-details {
+    padding: 10px;
+  }
+
+  .personal-details h2 {
+    font-size: 24px; /* Adjust font size for smaller screens */
+  }
+
+  .personal-details li {
+    font-size: 14px; /* Adjust font size for list items */
+  }
+}
+
+/* Media query for mobile screens */
+@media (max-width: 480px) {
+  .personal-details {
+    padding: 5px;
+  }
+
+  .personal-details h2 {
+    font-size: 20px; /* Adjust font size for smaller screens */
+  }
+
+  .personal-details li {
+    font-size: 12px; /* Adjust font size for list items */
+  }
+}
   
 
   .image-container {
