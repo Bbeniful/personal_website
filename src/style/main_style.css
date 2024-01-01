@@ -189,10 +189,11 @@ line-height: 50px;
 
   @media (max-width: 768px) {
     .app {
-      padding: 10px;
+      flex-direction: row;
     }
 
     .main-content {
+      width: 100%; /* Adjust as needed */
       height: auto;
       display: flex;
       flex-direction: column;
