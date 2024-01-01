@@ -1,8 +1,24 @@
-export default function Playground(){
-    return (
-        <div class="flex-container">
-  <div id="box1">1</div>
-  <div id="box2">2</div>
-</div>
-    )
+// App.js
+
+import React from 'react';
+import Image from './Image';
+import MyNewSocialLinks from './MyNewSocialLinks';
+import PersonalDetails from './PersonalDetails';
+
+const Playground = () => {
+  return (
+    <div className="app">
+      <div className="main-content">
+        <div className="left-section">
+          <Image />
+          <MyNewSocialLinks />
+        </div>
+        <div className="right-section">
+          <PersonalDetails />
+        </div>
+      </div>
+    </div>
+  );
 }
+
+export default Playground;

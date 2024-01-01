@@ -1,5 +1,6 @@
 import logo from './logo.svg';
 import './style/App.css';
+import './style/main_style.css';
 import './style/elements_style.css'
 import TopSide from './components/top_side.js';
 import BottoomSide from './components/bottom_left.js'
@@ -11,8 +12,7 @@ import RoundedBox from './components/rounded_element';
 function App() {
   return (
     <div id='main_container'>
-      <RoundedBox/>
-      <div class="loader"></div>
+      <Playground/>
     </div>
   );
 }
