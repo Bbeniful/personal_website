@@ -1,11 +1,14 @@
 // App.js
 
-import React from 'react';
+import React, { useEffect } from 'react';
 import Image from './Image';
 import MyNewSocialLinks from './MyNewSocialLinks';
 import PersonalDetails from './PersonalDetails';
 
 const Playground = () => {
+  useEffect(()=>{
+    document.title = "Hi, I'm Benjamin"
+  },[])
   return (
     <div className="app">
       <div className="main-content">
