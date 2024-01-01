@@ -39,8 +39,14 @@
 
 
 #main_container{
-  height: 100vh;
   background: rgb(5,5,6);
   background: linear-gradient(90deg, rgba(5,5,6,1) 0%, rgba(57,54,54,1) 96%);
+}
+
+@media (max-width: 768px) {
+  #main_container{
+    background: rgb(5,5,6);
+    background: linear-gradient(90deg, rgba(5,5,6,1) 0%, rgba(57,54,54,1) 96%);
+  }
 }
 

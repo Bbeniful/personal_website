@@ -129,19 +129,7 @@
 }
 
   /* Media query for smaller screens */
-@media (max-width: 768px) {
-  .personal-details {
-    padding: 10px;
-  }
 
-  .personal-details h2 {
-    font-size: 24px; /* Adjust font size for smaller screens */
-  }
-
-  .personal-details li {
-    font-size: 14px; /* Adjust font size for list items */
-  }
-}
 
 /* Media query for mobile screens */
 @media (max-width: 480px) {
@@ -198,3 +186,49 @@
 vertical-align: middle;
 line-height: 50px;  
   }
+
+  @media (max-width: 768px) {
+    .app {
+      padding: 10px;
+    }
+
+    .main-content {
+      height: auto;
+      display: flex;
+      flex-direction: column;
+    }
+
+  .left-section,
+  .right-section {
+    height: 100%;
+    width: 100%; /* Set full width for smaller screens */
+    margin: 0; /* Remove margins */
+  }
+  .left-section {
+    align-items: center; /* Center align items */
+  }
+
+  .right-section {
+    margin-top: 20px; /* Add space between sections */
+  }
+
+  .image-container {
+    width: 40vw; /* Adjust image size for smaller screens */
+    height: 40vw; /* Adjust image size for smaller screens */
+    max-width: 150px; /* Adjust maximum width for smaller screens */
+    max-height: 150px; /* Adjust maximum height for smaller screens */
+  }
+
+  .social-links {
+    display:inline
+  }
+
+  .personal-details {
+    margin-left: 5rem;
+    font-size: 18px;
+    width: auto;
+    height: auto;
+      color: white;
+      padding: 10px;
+    }
+  }  
