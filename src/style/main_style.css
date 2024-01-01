@@ -215,8 +215,8 @@ line-height: 50px;
   .image-container {
     width: 40vw; /* Adjust image size for smaller screens */
     height: 40vw; /* Adjust image size for smaller screens */
-    max-width: 150px; /* Adjust maximum width for smaller screens */
-    max-height: 150px; /* Adjust maximum height for smaller screens */
+    max-width: 250px; /* Adjust maximum width for smaller screens */
+    max-height: 250px; /* Adjust maximum height for smaller screens */
   }
 
   .social-links {
