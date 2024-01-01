@@ -14,7 +14,7 @@ My life quote may be familiar to you. I encountered it while going to the gym:
 <p id='motto-text'><b>'Go hard or go home.'</b></p>
 For me, this means striving to be the best in the field you've chosen to pursue.
 Moreover, I am very committed to Clean Code. I often say, 'The Clean Code book is next to my bible.' Let me share a quote with you:
-<p id='motto-text'><b>''Any fool can write code that a computer can understand. Good programmers write code that humans can understand.'</b><br/> - Martin Fowler.</p>
+<p id='clean-code-text'><b>''Any fool can write code that a computer can understand. Good programmers write code that humans can understand.'</b><br/> - Martin Fowler.</p>
 
   
       </p>

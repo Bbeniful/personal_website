@@ -187,6 +187,13 @@ vertical-align: middle;
 line-height: 50px;  
   }
 
+  #clean-code-text{
+    font-size:  3.0em;;
+    text-align: start;
+vertical-align: middle;
+line-height: 50px;  
+  }
+
   @media (max-width: 768px) {
     .app {
       flex-direction: row;
