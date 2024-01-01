@@ -27,8 +27,14 @@
 
   /* SocialLinks.module.css */
 
-.social-links {
-    text-align: center;
+  .social-links {
+    position: fixed;
+    top: 50%; /* Adjust positioning from top */
+    left: 20px; /* Adjust positioning from right */
+    transform: translateY(-50%);
+    text-align: left;
+    z-index: 1000; /* Adjust if needed to ensure it's above other elements */
+    color: white;
   }
   
   .social-links h3 {
@@ -39,14 +45,31 @@
     list-style: none;
     padding: 0;
   }
+
+  #linkedin{
+    width: 30px;
+    height: 30px;
+  }
+
+  #email{
+    width: 22px;
+    height: 18px;
+  }
+
+
+
   
   .social-list li {
     margin-bottom: 8px;
   }
   
+  .social-list img {
+    height: 20px;
+    width: 20px;
+  }
   .social-list a {
     text-decoration: none;
-    color: #333;
+    color: white;
     transition: color 0.3s ease;
   }
   
@@ -57,10 +80,12 @@
   /* PersonalDetails.module.css */
 
 .personal-details {
-    width: 50vw; /* Half the viewport width */
+  margin-left: 5rem;
+  font-size: 18px;
+    width: 30vw; /* Half the viewport width */
     height: 50vw; /* Maintain a square aspect ratio */
-    background-color: #f9f9f9;
-    padding: 20px;
+    color: white;
+    padding: 10px;
   }
   
   .personal-details h2 {
@@ -82,8 +107,9 @@
   
 
   .image-container {
-    width: 50vw; /* Half the viewport width */
-    height: 50vw; /* Maintain a square aspect ratio */
+    margin-top: 5rem;
+    width: 40vw; /* Half the viewport width */
+    height: 40vw; /* Maintain a square aspect ratio */
     overflow: hidden;
     border-radius: 50%;
   }
@@ -92,4 +118,30 @@
     width: 100%;
     height: 100%;
     object-fit: cover;
+  }
+
+  @media (max-width: 768px) {
+    .image-container {
+      width: 40vw; /* Adjust width for smaller screens */
+      height: 40vw; /* Adjust height for smaller screens */
+      max-width: 150px; /* Adjust maximum width for smaller screens */
+      max-height: 150px; /* Adjust maximum height for smaller screens */
+    }
+  }
+  
+  /* Media query for even smaller screens, e.g., mobile phones */
+  @media (max-width: 480px) {
+    .image-container {
+      width: 70vw; /* Adjust width for smaller screens */
+      height: 70vw; /* Adjust height for smaller screens */
+      max-width: 120px; /* Adjust maximum width for smaller screens */
+      max-height: 120px; /* Adjust maximum height for smaller screens */
+    }
+  }
+
+  #motto-text{
+    font-size:  3.0em;;
+    text-align: center;
+vertical-align: middle;
+line-height: 50px;  
   }
