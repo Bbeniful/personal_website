@@ -1,0 +1,15 @@
+#newDesign{
+    width: 60vh;
+    background-color: #121212;
+    color: #ffffff;
+    font-size: 25px;
+    padding-left: 25px;
+}
+
+#span_text{
+    position: sticky;
+    margin-top: 30px;
+    font-size: 30PX;
+    color: #ffffff;
+    opacity: 20;
+}
