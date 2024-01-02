@@ -12,7 +12,7 @@
     display: flex;
     justify-content: space-between;
     width: 80%; /* Adjust as needed */
-    margin-top: 20px;
+   
   }
   
   .left-section {
@@ -22,7 +22,11 @@
   }
   
   .right-section {
-    width: 60%; /* Adjust as needed */
+    width: 50%; /* Adjust as needed */
+    text-align: center;
+    margin-top: 50px;
+    height: 100%;
+    vertical-align: middle;
   }
   
   /* Styling for image, social links, personal details can be done in their respective components */
@@ -84,8 +88,7 @@
 .personal-details {
   margin-left: 5rem;
   font-size: 1.1rem;
-    width: 30vw; /* Half the viewport width */
-    height: 50vw; /* Maintain a square aspect ratio */
+  text-align: center;
     color: white;
     padding: 10px;
   }
@@ -151,8 +154,8 @@
 
   .image-container {
     margin-top: 5rem;
-    width: 40vw; /* Half the viewport width */
-    height: 40vw; /* Maintain a square aspect ratio */
+    width: 30vw; /* Half the viewport width */
+    height: 30vw; /* Maintain a square aspect ratio */
     overflow: hidden;
     border-radius: 50%;
   }
